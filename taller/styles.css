@@ -1,0 +1,102 @@
+*{
+    overflow: hidden;
+    box-sizing: border-box;
+ }
+  
+ body{
+    margin: 0px;
+    margin-top: -10px;
+ }
+ h1 {
+    font-family: 'Lobster', cursive;
+    color: black;
+    width: 50px;
+ }
+  
+ header {
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+ }
+  
+ header h1{
+    font-size: 50px;
+    margin-top: 35px;
+    width: 50%;
+    padding-left: 20px;
+ }
+  
+ .border {
+    border-color: black;
+    border-style: dashed;
+    border-width: 2px;
+ }
+  
+ header > .nav{
+    padding: 40px;
+    text-align: right;
+    width: 50%;
+    height: 100px;
+ }
+  
+ .nav a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 0px 20px 0px 10px;
+    transition: all 0.5s ease;
+ }
+  
+ .login{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    float: right;
+    text-align: center;
+ }
+  
+ .orden{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    float: right;
+    text-align: center;
+ }
+  
+ .nav a:hover{
+    color: #7FFFD4;
+    font-weight: bold;
+ }
+ .image-header {
+    background-image: url('img/Vinos.jpg');
+    height: 800px;
+ }
+ .image-header h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    width: 50%;
+ }
+  
+ .imagen1{
+    background-image: url('img/viñedos.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    height: 500px;
+    width: 500px;
+    float: right;
+    padding-top: 200px;
+ }
+  
+ .title-logo {
+    float: left;
+    width: 50%;
+    border-color: black;
+    border-width: 2px;
+ }
+  
+ .texto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color:black;
+ }
+ 

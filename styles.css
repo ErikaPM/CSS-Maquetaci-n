@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: royalblue; 
+}
+
+#tituloPrincipal{
+    font-size: 36px;
+}
+
+* { 
+    margin: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 10;
+}
+
+header{
+    border: 1px solid white;
+    background: white;
+    height: 50px;
+}
+
+section{
+    border: 1px solid black;
+    background:brown;
+    height: 100px;
+}
+
+footer{
+    border: 1px solid black;
+    background:green;
+    height: 100px;
+}
+
+.logo {
+    border: 1px solid blue;
+    width: 50%;
+    float:left;
+}
+
+nav{
+    border: 1px solid blue;
+    width: 50%;
+    float:left;
+}
+
+.col {
+    width: 50%;
+    font-size: 10;
+}
+
+.slogan{
+    display: inline-block;
+}
+
+.imagenSopa{
+    display: inline-block;
+}
+
+/* . es una clase, # es id */
